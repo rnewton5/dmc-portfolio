@@ -1,0 +1,31 @@
+.video-panel {
+    display: inline-block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 75px;
+    background-color: rgba(32, 32, 32, .8);
+    border-radius: 10px;
+    color: #ddd;
+    box-shadow: 5px 5px 10px #202020;
+}
+
+.video-panel hr {
+    border: 1px solid lime;
+}
+
+.video-panel p {
+    text-align: left;
+}
+
+@media (min-width: 1100px) {
+    .video-panel {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1550px) {
+    .video-panel {
+        width: 30%;
+    }
+}
