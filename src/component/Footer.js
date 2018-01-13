@@ -27,11 +27,6 @@ class Footer extends Component {
               <hr />
               <p>{this.props.bio}</p>
             </div>
-            <div className="footer_contact">
-              <p>Contact</p>
-              <hr />
-              <a href={"mailto:" + this.props.email}>{this.props.email}</a>
-            </div>
           </div>
         </div>
         <button
