@@ -10,8 +10,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Content videos={data.videos} />
         <Header headshot={data.headshot} bio={data.bio} name={data.name} email={data.email} />
+        <Content videos={data.videos} />
       </div>
     );
   }

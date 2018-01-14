@@ -53,6 +53,7 @@
     box-shadow: 5px 5px 10px #202020;
     bottom: 0;
     text-align: center;
+    z-index: 50;
     vertical-align: middle;
     color: #ddd;
     transition: .6s ease-in-out;
