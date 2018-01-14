@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Footer.css';
+import './Header.css';
 
-class Footer extends Component {
+class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -19,18 +19,23 @@ class Footer extends Component {
   render() {
     return (
       <div className={this.state.openMenu ? "open" : ""}>
-        <div className="footer">
-          <div className="footer_content">
-            <img className="footer_headshot" src={this.props.headshot} alt="headshot" />
-            <div className="footer_bio">
+        <div className="header">
+          <div className="header_content">
+            <img className="header_headshot" src={this.props.headshot} alt="headshot" />
+            <div className="header_bio">
               <h2>{this.props.name}</h2>
               <hr />
               <p>{this.props.bio}</p>
             </div>
+            <div className={this.props.email ? "header_contact" : "hidden"}>
+              <h2>Contact</h2>
+              <hr />
+              <a href={"mailto:" + this.props.email}>{this.props.email}</a>
+            </div>
           </div>
         </div>
         <button
-          className={this.state.openMenu ? "footer_menu-button open" : "footer_menu-button"}
+          className={this.state.openMenu ? "header_menu-button open" : "header_menu-button"}
           onClick={this.handleClick}
         >
           <span />
@@ -46,4 +51,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+export default Header;

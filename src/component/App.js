@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Footer from './Footer.js';
+import Header from './Header.js';
 import Content from './Content.js';
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <Content videos={data.videos} />
-        <Footer headshot={data.headshot} bio={data.bio} name={data.name} email={data.email} />
+        <Header headshot={data.headshot} bio={data.bio} name={data.name} email={data.email} />
       </div>
     );
   }
