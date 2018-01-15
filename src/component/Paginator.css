@@ -1,0 +1,38 @@
+.paginator_tab-list {
+    text-align: center;
+    background-color: rgba(32, 32, 32, .8);
+    display: inline-block;
+    width: 100%;
+    z-index: 40;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #202020;
+}
+
+.paginator_tab {
+    border: 1px solid #fff;
+    padding: 15px;
+    background-color: #111;
+    color: #fff;
+    margin: 0 1px;
+    font-size: 1.5em;
+}
+
+.active {
+    background-color: #0c0;
+    color: #111;
+}
+
+.paginator_tab:hover {
+    background-color: #0f0;
+    color: #000;   
+}
+
+.paginator_tab:active {
+    background-color: #0c0;
+    color: #000;   
+}
+
+.paginator_tab .active {
+    background-color: #0f0;
+    color: #000;  
+}
