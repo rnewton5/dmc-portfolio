@@ -4,7 +4,8 @@
         "width": "640",
         "playerVars": {
             "modestbranding": 1,
-            "rel": 0
+            "rel": 0,
+			"showinfo": 0
         } 
     },
     "big": {
@@ -12,7 +13,8 @@
         "width": "640",
         "playerVars": {
             "modestbranding": 1,
-            "rel": 0
+            "rel": 0,
+			"showinfo": 0
         } 
     }
 }
